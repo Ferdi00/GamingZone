@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+@media screen
+{
+
+    body {
+        background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+        min-height: 100vh;
+        font-family: sans-serif;
+    }
+
+    .input {
+        border: none;
+    }
+
+    .login-header {
+        box-shadow: 3px 3px 15px #333;
+    }
+
+
+    .registration-area {
+        position: relative;
+        margin: 0 auto;
+        background: #ecf0f1;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px #000;
+        padding: 15px;
+    }
+
+
+
+    h2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 2em;
+        margin-top: 10px;
+        color: #34495e;
+    }
+
+    input[type="email"], input[type="text"], input[type="date"], input[type="password"], .button {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 25px;
+        height: 40px;
+        border-radius: 5px;
+        outline: 0;
+    }
+
+    input[type="email"], input[type="password"]  ,input[type="text"], input[type="date"]{
+        border: 1px solid #bbb;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+    }
+
+    input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="date"]:focus{
+        border: 1px solid black;
+    }
+
+    .tasti-nav {
+        align-self: center;
+    }
+
+    .button {
+        background:deepskyblue;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: box-shadow 0.4s ease, background 0.4s;
+    }
+
+    .button:hover {
+        background: royalblue;
+        box-shadow: 1px 1px 5px #555;
+    }
+
+    #torna-home, #registrati {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 10px;
+        color: blue;
+    }
+
+    a:visited {
+        color: blue;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+
+}

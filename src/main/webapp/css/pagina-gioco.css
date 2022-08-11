@@ -1,0 +1,167 @@
+@charset "ISO-8859-1";
+
+@media screen {
+
+	body {
+		background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+   		min-height: 100vh;
+		font-family: sans-serif;
+	}
+	
+	.header {
+		box-shadow: 3px 3px 15px #333;
+	}
+		
+		
+	.gameinfo-section {
+		display: grid;
+		grid-template-columns: 60% 40%;
+		margin: 0.5%;
+	}
+	
+	.gamesec2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	
+	#game-name {
+		font-size: 170%;
+	}
+	
+	.game-info {
+		display: grid;
+		grid-template-columns: 45% 50%;
+		grid-column: 1 / 1;
+	}
+	
+	.gamesec1 {
+		text-align: center;
+		padding-right: 10%;
+		font-size: large;
+	}
+
+
+	#imgXD {
+		box-shadow: 3px 3px 7px #333;
+	}
+		
+	.threads {
+		display: flex;
+		flex-direction: column;
+		grid-column: 2 / 2;
+	}	
+	
+	.ThreadArea {
+		background: linear-gradient(0deg, white 0%, orange 100%);
+		box-shadow: 3px 3px 15px #333;
+		border: solid black 2px;
+		border-radius: 0.6em;
+		display: grid;
+		grid-template-rows: 80% 20%;
+		padding: 2%;
+		padding-bottom: 5%;
+	}
+	
+	.game-card {
+		position: relative;
+		background: linear-gradient(0deg, white 0%, orange 100%);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  		transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+		border: solid black 2px;
+		border-radius: 0.6em;
+		display: flex;
+		flex-direction: column;
+		padding: 2%;
+		padding-bottom: 5%;
+	}
+	
+	.game-card:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+	
+	#gamecard {
+		font-size: larger;
+    	font-weight: bold;
+    	font-family: sans-serif;
+	}
+	
+	.discussioni {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.discussione {
+		border-top: solid 1px grey;
+		padding-bottom: 2%;
+		padding-top: 2%;
+	}
+	
+	.crea-discussione {
+		width: 100%;
+		text-align: center;
+		align-self: center;
+	}
+	
+	.crea-discussione a, .crea-discussione a:visited {
+		text-decoration: none;
+		text-shadow: gray;
+		color: black;
+	}
+	
+	
+	.crea-discussione a{
+		background:deepskyblue;
+		padding: 2%;
+		border: solid 1px;
+		border-radius: 5px;
+		transition: all 0.3s;
+	}
+	
+	.crea-discussione a:hover {
+		cursor: pointer;
+		background: royalblue;
+	}
+	
+	.setButton, #reindirizzamento-login {
+	background: deepskyblue;
+    padding: 1%;
+    border: solid 1px;
+    border-radius: 5px;
+    transition: all 0.3s;
+	}
+	
+	.setButton:hover, #reindirizzamento-login:hover{
+		background: royalblue;
+		transition: all 0.3s;
+	}
+	
+	#reindirizzamento-login {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#reindirizzamento-login:visited {
+		color: black;
+	}
+	
+	#vote, #category {
+		border: 1px solid #999;
+		border-radius: 5px;
+		box-sizing: border-box;
+	}
+	
+	.num-voto {
+		color: #40570F;
+		display: contents;
+	}
+	
+	#score {
+		display: contents;
+	}
+	
+	.VoteArea, .ListArea {
+		padding-bottom: 4%;
+	}
+	
+}

@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+@media screen {
+    body {
+        background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+        min-height: 100vh;
+        font-family: sans-serif;
+    }
+
+    .imagethread {
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .container {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+        width: 40%;
+    }
+
+    .container p {
+        font: caption;
+        font-family: monospace;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .header {
+        box-shadow: 3px 3px 15px #333;
+    }
+
+    .catalogo-pagina {
+        text-align: -webkit-center;
+    }
+
+    .thread{
+        border: 7px solid orange;
+        display: flex;
+        margin: 5px
+    }
+
+
+    .thread p{
+        font-size: x-large;
+        position: absolute;
+        left: 40%;
+    }
+
+    .thread ul{
+        font-size: x-large;
+        position: absolute;
+        left: 40%;
+    }
+
+    .thread li{
+        text-align: left;
+    }
+
+    .thread a{
+        margin-right: 10px;
+    }
+
+
+}

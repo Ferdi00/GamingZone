@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+@media screen {
+	.header {
+		box-shadow: 3px 3px 15px #333;
+	}
+	
+	.container {
+		padding: 1%;
+    	margin: 40px auto 0;
+    	width: 450px;    
+	}
+	
+	form input ~ label:after, form textarea ~ label:after {
+		visibility: hidden;
+	}
+	
+	form input:invalid ~ label:after, form textarea:invalid ~ label:after {
+		content: ':(';
+	}
+	
+	body {
+	    background: linear-gradient(0deg, #7DC8E8 0%, #BDE467 100%);
+   		min-height: 100vh;
+		font-family: sans-serif;
+	}
+	
+	form#this-form{
+		padding: 30px;
+		border-radius: 10px;
+		background: #fff;
+		box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+	}
+	
+	form h1 {
+		text-align: center;
+	}
+	
+	form h1 em {
+		display: block;
+		font-style: normal;
+	}
+	
+	form div#input-box {
+		margin: 20px 0;
+		position: relative;
+	}
+	
+	form div:last-child {
+		margin-bottom: 0;
+	}
+	
+	form label {
+		position: absolute;
+		width: 100%;
+		top: 15px;
+		left: 10px;
+		color: #444;
+		transition: 100ms ease all;
+	}
+	
+	#thread_title, #thread_type, #thread_text, form textarea, form select  {
+		border: 1px solid #999;
+		border-radius: 3px;
+		padding: 20px 10px 10px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	form input ~ label:after, form textarea ~ label:after {
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 5px;
+		font-size: 1.2rem;
+	}
+	
+	form input:focus ~ label, form input:not(:placeholder-shown) ~ label, form textarea:focus ~ label, form textarea:not(:placeholder-shown) ~ label {
+		top: 5px;
+		font-size: 0.65em;
+	}
+	
+	#type-label, #text-label {
+		top: 5px;
+		font-size: 0.8em;
+	}
+
+	.setButton {
+        background: linear-gradient(0deg, rgba(34,48,195,1) 0%, rgba(45,119,253,1) 100%);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        width: 100%;
+        color: #fff;
+        border: 0;
+        border-radius: 3px;
+        padding: 20px;
+        cursor: pointer;
+        font-size: 1.2em;
+    }
+    
+    .setButton:hover {
+		cursor: pointer;
+		background: linear-gradient(0deg, #73C5E7 0%, #467CC3 100%);
+	}
+}

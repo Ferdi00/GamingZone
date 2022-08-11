@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1252">
+    <file url="file://$PROJECT_DIR$" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gameManager/AcceptRequestServlet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gameManager/AddGame.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gameManager/FindAllServlet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gameManager/FindByPublisherServlet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gameManager/GiocoDAO.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/listManager/AddToListServlet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/test/ElementoListaDAOTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/test/GiocoDAOTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/test/RicercaTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/userManager/Utente.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/util/ConnectionPool.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/util/Costanti.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/lib" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1252" />
+  </component>
+</project>

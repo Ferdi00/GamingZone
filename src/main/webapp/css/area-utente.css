@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+@media screen {
+	body {
+		background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+   		min-height: 100vh;
+		font-family: sans-serif;
+	}
+	
+	.header {
+		box-shadow: 3px 3px 15px #333;
+	}
+	
+	.utente-section {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 1%;
+	}
+	
+	#info-section {
+		text-align: center;
+		text-align: -webkit-center;
+	}
+
+	.infobox {
+		width: 50%;
+	}
+
+	#imgXD {
+ 	   box-shadow: 6px 0 6px -6px black,
+		-6px 0 6px -6px black,
+		0 -2px 6px -2px black;
+	}
+	
+	ul {
+		list-style-type: none;
+	}
+	
+	ul li {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		font-size: large;
+	}
+	
+	.list {
+		background-color: orange;
+	    box-shadow: 3px 3px 15px #333;
+	    border: solid black 2px;
+	    border-radius: 0.6em;
+	    padding: 2%;
+	    padding-bottom: 5%;
+	}
+	
+	.userinfo {
+		border-left: solid 1px black;
+		border-right: solid 1px black;
+		border-top: solid 1px black;
+	}
+	
+	#last {
+		border: solid 1px black;
+		border-bottom-left-radius: .5em;
+		border-bottom-right-radius: .5em;
+	}
+}

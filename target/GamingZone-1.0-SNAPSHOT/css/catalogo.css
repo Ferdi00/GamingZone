@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+@media screen {
+	body {
+		background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+   		min-height: 100vh;
+		font-family: sans-serif;
+	}
+	
+	.header {
+		box-shadow: 3px 3px 15px #333;
+	}
+	
+	.catalogo-pagina {
+		text-align: -webkit-center;
+	}
+
+/*NAVBAR*/
+
+
+	.container {
+		margin-top: 1%;
+		margin-bottom: 1%;
+	    text-align: center;
+	    border-top: solid 1px black;
+	    border-bottom: solid 1px black;
+	    width: 40%;
+    }
+    
+    .container p {
+	    font: caption;
+	    font-family: monospace;
+	    font-size: xx-large;
+	    font-weight: bold;
+    }
+    
+	nav {
+		text-align: left;
+		margin: 0.4% 0;
+		background: orange;
+	}
+	
+	nav ul {
+		padding: 0;
+	  margin: 0;
+		list-style: none;
+		position: relative;
+		}
+		
+	nav ul li {
+		display:inline-block;
+		background: orange;
+		}
+	
+	nav a {
+		display:block;
+		padding:0 10px;	
+		color:#FFF;
+		font-size:20px;
+		line-height: 60px;
+		text-decoration:none;
+	}
+	
+	nav a:hover { 
+		background-color: #000000; 
+	}
+	
+	nav ul ul {
+		display: none;
+		position: absolute; 
+		top: 60px;
+	}
+		
+	nav ul li:hover > ul {
+		display:inherit;
+	}
+	
+	nav ul ul li {
+		width:200px;
+		float:none;
+		display:list-item;
+		position: relative;
+	}
+	
+	li > a:after { content:  ' +'; }
+	li > a:only-child:after { content: ''; }
+/*FINE NAVBAR*/
+
+/*CATALOGO*/
+	.catalogo {
+		padding: 1%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+	.gioco {
+		background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+		padding: 1%;
+		padding-bottom: 0%;
+		flex-basis: 20%;		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		border: solid 2px;
+		margin: 0.5%;
+		border-radius: 5%;
+		box-shadow: 3px 3px 10px #000;
+	}
+
+
+	
+	.game-image img {
+		width: 220px;
+		aspect-ratio: auto 220 / 220;
+		height: 220px;
+		box-shadow: 2px 2px 5px #000;
+	 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	}
+	
+	.game-image img:hover {
+		box-shadow: 4px 4px 13px #000;
+	}
+	
+	.game-name h5 {
+		text-align: center;
+	}
+	
+	.game-name a {
+		text-decoration: none;
+		color: black;
+		font-size: x-large;
+	}
+/*FINE CATALOGO*/
+
+}
